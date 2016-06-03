@@ -82,8 +82,8 @@ NPM
 <pre>
 step1 
 npm install -g react-native-cli
-step2<br/>
-brew install watchman <br/>
+step2
+brew install watchman
 step3
 brew install flow
 step4
