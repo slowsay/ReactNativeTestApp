@@ -94,7 +94,7 @@ npm start
 
 UPDATE
 -----------------------
-#selectedIcon update:react.xcodeproj/react/views/RctTabbaritem.m
+*selectedIcon update:react.xcodeproj/react/views/RctTabbaritem.m
 
 
 VERSION
