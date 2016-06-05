@@ -30,39 +30,41 @@ class Fuckyou extends Component {
         }
     }
 
+//触发并清右上红圈
     changeTab(str) {
-        this.setState({selectedTab: str, notifcount: this.state.notifCount + 1, presses: this.state.presses + 1});
+        this.setState({selectedTab: str, weinotifCount: 0, homenotifCount: 0, presses: 0});
     }
 
     render() {
         return (
             <TabBarIOS tintColor="#fe5100" barTintColor="#c6d3db">
-                <TabBarIOS.Item renderAsOriginal icon={{uri: 'm5.png',scale:5}} selectedIcon={{uri:'m5s.png',scale:5}}
+
+                <TabBarIOS.Item icon={{uri: 'm0.png',scale:5}} selectedIcon={{uri:'m0s.png',scale:5}}
                                 title="首页" onPress={()=>this.changeTab('首页')}
                                 badge={this.state.homenotifCount>0?this.state.homenotifCount:undefined}
                                 selected={this.state.selectedTab==='首页'}>
                     <Homeview />
                 </TabBarIOS.Item>
-                <TabBarIOS.Item renderAsOriginal icon={{uri: 'm1.png',scale:5}} selectedIcon={{uri:'m1s.png',scale:5}}
-                                title="微淘"
+                <TabBarIOS.Item icon={{uri: 'm5.png',scale:5}} selectedIcon={{uri:'m5s.png',scale:5}}
+                                title="微淘" onPress={()=>this.changeTab('微淘')}
                                 badge={this.state.weinotifCount>0?this.state.weinotifCount:undefined}
-                                onPress={()=>this.changeTab('微淘')}
+
                                 selected={this.state.selectedTab==='微淘'}>
                     <Weitaoview />
                 </TabBarIOS.Item>
-                <TabBarIOS.Item renderAsOriginal icon={{uri: 'm2.png',scale:5}} selectedIcon={{uri:'m2s.png',scale:5}}
+                <TabBarIOS.Item icon={{uri: 'm2.png',scale:5}} selectedIcon={{uri:'m2s.png',scale:5}}
                                 title="社区"
                                 onPress={()=>this.changeTab('社区')}
                                 selected={this.state.selectedTab==='社区'}>
                     <Bbsview />
                 </TabBarIOS.Item>
-                <TabBarIOS.Item renderAsOriginal icon={{uri: 'm3.png',scale:5}} selectedIcon={{uri:'m3s.png',scale:5}}
+                <TabBarIOS.Item icon={{uri: 'm3.png',scale:5}} selectedIcon={{uri:'m3s.png',scale:5}}
                                 title="购物车"
                                 onPress={()=>this.changeTab('购物车')}
                                 selected={this.state.selectedTab==='购物车'}>
                     <Buyview />
                 </TabBarIOS.Item>
-                <TabBarIOS.Item renderAsOriginal icon={{uri: 'm4.png',scale:5}} selectedIcon={{uri:'m4s.png',scale:5}}
+                <TabBarIOS.Item icon={{uri: 'm4.png',scale:5}} selectedIcon={{uri:'m4s.png',scale:5}}
                                 title="我的淘宝"
                                 onPress={()=>this.changeTab('我的淘宝')}
                                 selected={this.state.selectedTab==='我的淘宝'}>
