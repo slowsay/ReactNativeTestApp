@@ -94,9 +94,13 @@ npm start
 
 UPDATE
 -----------------------
+<pre>
 *selectedIcon update:react.xcodeproj/react/views/RctTabbaritem.m
-
+</pre>
 
 VERSION
 -----------------------
+<pre>
 v1.0.0
+v1.0.1 update selectedIcon功能，用于tabbarios.item
+</pre>
