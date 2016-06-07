@@ -3,8 +3,10 @@
  */
 import React,{Component} from 'react';
 import {
-    View,StyleSheet,Image,Text,TouchableHighlight
+    View,StyleSheet,Image,Text,TouchableHighlight,StatusBar,Navigator
 } from 'react-native';
+
+
 export default class extends Component {
     constructor() {
         super();
@@ -15,6 +17,7 @@ export default class extends Component {
     render() {
         return (
             <View style={styles.container}>
+
                 <Text style={styles.welcome}>
                     home:{this.state.msg}
                 </Text>

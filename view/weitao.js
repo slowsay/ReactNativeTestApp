@@ -1,23 +1,35 @@
 /**
  * Created by slowsay on 16/6/3.
  */
+'use strict';
 import React,{Component} from 'react';
 import {
-    View,StyleSheet,Image,Text,TouchableHighlight
+    Image,StyleSheet,Text,TouchableHighlight,LayoutAnimation,ScrollView,CameraRoll,View
 } from 'react-native';
+import Util from './../utils';
+
 export default class extends Component {
     constructor() {
         super();
         this.state = {
-            msg: '微淘'
+            msg: '微淘',
+            enter: false
+
         }
     }
+
+    componentDidMount() {
+        this.setState({enter: true});
+    }
+
+    _setpassword() {
+
+    }
+
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    home:{this.state.msg}
-                </Text>
+                <Text>{this.state.msg}</Text>
             </View>
         );
     }
@@ -31,16 +43,14 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff',
+        backgroundColor: '#ccc',
     },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
+    img: {
+        width: 100,
+        height: 140,
+        margin: 2
     },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
-    },
+    icon: {
+        width: 29, height: 29
+    }
 });

@@ -3,8 +3,30 @@
  */
 import React,{Component} from 'react';
 import {
-    View,StyleSheet,Image,Text,TouchableHighlight
+    View,StyleSheet,Image,Text,TouchableHighlight,SegmentedControlIOS,ScrollView,PanResponder
 } from 'react-native';
+
+class Userbox extends Component {
+    constructor() {
+        super();
+        this.state = {}
+    }
+
+    componentWillMount() {
+        this._panResponder = PanResponder.create({
+            onStartShouldSetPanResponder: (evt, gestureState) => true,
+            onStartShouldSetPanResponderCapture: (evt, gestureState) => true,
+            onMoveShouldSetPanResponder: (evt, gestureState) => true,
+            onMoveShouldSetPanResponderCapture: (evt, gestureState) => true,
+        });
+    }
+
+    render() {
+        return <View {...this._panResponder.panHandlers} >
+        </View>
+    }
+}
+
 export default class extends Component {
     constructor() {
         super();
@@ -12,12 +34,19 @@ export default class extends Component {
             msg: '我的淘宝'
         }
     }
+
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    home:{this.state.msg}
-                </Text>
+                <Userbox />
+                <ScrollView>
+                    <Text style={styles.welcome}>
+                        home:{this.state.msg}
+                    </Text>
+                    <View>
+                        <SegmentedControlIOS values={['文章','消息','设置']} selectedIndex={0} tintColor='#000'/>
+                    </View>
+                </ScrollView>
             </View>
         );
     }
