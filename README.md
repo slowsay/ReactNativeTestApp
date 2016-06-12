@@ -76,7 +76,10 @@ class Fuckyou extends Component {
 }
 AppRegistry.registerComponent('Fuckyou', () => Fuckyou);
 </pre>
-
+模拟测试app
+<p>
+<img src='http://slowsay.github.io/ReactNativeTestApp/test.gif' />
+</p>
 NPM
 -----------------------
 <pre>
