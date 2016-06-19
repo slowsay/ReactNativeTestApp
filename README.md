@@ -111,4 +111,5 @@ v1.0.1 update selectedIcon功能，用于tabbarios.item
 v1.0.2 update 菜单列表排列 Image
 v1.0.3 update scrollView 加载图标,页面切换
 v1.0.4 update redux
+v1.0.5 update launch video
 </pre>
