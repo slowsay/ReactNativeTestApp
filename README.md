@@ -101,6 +101,8 @@ UPDATE
 *selectedIcon update:react.xcodeproj/react/views/RctTabbaritem.m
 *Menulist update home.js
 *ScrollView refreshControl update home.js
+*about navigator or navigatorIOS 
+*add video or image for launch image
 </pre>
 
 VERSION
