@@ -92,6 +92,8 @@ brew install flow
 step4
 npm init hello
 step 5
+react-native init 项目名称
+step 6
 npm start
 </pre>
 
