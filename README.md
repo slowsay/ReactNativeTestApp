@@ -97,6 +97,29 @@ step6
 npm start
 step7
 react-native bundle --entry-file ./index.js --bundle-output ./ios/index.jsbundle
+
+[1:14:32 PM] <START> Building Dependency Graph
+[1:14:32 PM] <START> Crawling File System
+[1:14:33 PM] <START> find dependencies
+[1:14:37 PM] <END>   Crawling File System (4648ms)
+[1:14:37 PM] <START> Building in-memory fs for JavaScript
+[1:14:37 PM] <END>   Building in-memory fs for JavaScript (340ms)
+[1:14:37 PM] <START> Building in-memory fs for Assets
+[1:14:38 PM] <END>   Building in-memory fs for Assets (209ms)
+[1:14:38 PM] <START> Building Haste Map
+[1:14:38 PM] <START> Building (deprecated) Asset Map
+[1:14:38 PM] <END>   Building (deprecated) Asset Map (89ms)
+[1:14:38 PM] <END>   Building Haste Map (371ms)
+[1:14:38 PM] <END>   Building Dependency Graph (5597ms)
+transformed 677/677 (100%)
+[1:14:39 PM] <END>   find dependencies (6237ms)
+bundle: start
+bundle: finish
+bundle: Writing bundle output to: ./ios/index.jsbundle
+bundle: Done writing bundle output
+Assets destination folder is not set, skipping...
+说明打包成功了，可以发布到appstore
+
 </pre>
 
 UPDATE
