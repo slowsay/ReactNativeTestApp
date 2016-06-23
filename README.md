@@ -91,10 +91,12 @@ step3
 brew install flow
 step4
 npm init hello
-step 5
+step5
 react-native init 项目名称
-step 6
+step6
 npm start
+step7
+react-native bundle --entry-file ./index.js --bundle-output ./ios/index.jsbundle
 </pre>
 
 UPDATE
@@ -105,6 +107,7 @@ UPDATE
 *ScrollView refreshControl update home.js
 *about navigator or navigatorIOS 
 *add video or image for launch image
+*package app for appstore
 </pre>
 
 VERSION
