@@ -131,6 +131,7 @@ UPDATE
 *about navigator or navigatorIOS 
 *add video or image for launch image
 *package app for appstore
+*about navigator props issue <Component {...route.params} route={route} state={state} actions={actions} navigator={navigator}/>;
 </pre>
 
 VERSION
