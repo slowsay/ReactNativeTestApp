@@ -132,6 +132,7 @@ UPDATE
 *add video or image for launch image
 *package app for appstore
 *about navigator props issue <Component {...route.params} route={route} state={state} actions={actions} navigator={navigator}/>;
+*have blank page ,so view's style width,height need by set 
 </pre>
 
 VERSION
