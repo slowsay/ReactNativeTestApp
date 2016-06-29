@@ -1,0 +1,30 @@
+{
+  n: '切图框架 SLICY 发布 1.2 版本',
+  content: '切图框架SLICY 发布1.2版本 ，将简约进行到底，同时兼顾最大兼容性，这次版本的更新最大意义在于 删减了大量的不常用代码,和已有代码的优化， 对于核心的 12列栅格系统响应式 进行了重新的计算，新增了 fill* 栅格补位，布局更灵活',
+  src: 'http://static.oschina.net/uploads/space/2016/0623/163258_vNIN_2000968.png',
+  author: '开源中国(qietuwang)',
+  date: '2016年06月23日'
+}, {
+n: 'Linux 上的效率工具 UAfred',
+src: 'pic1.png',
+content: 'OpenJDK 9 正式公布，日程及特性由 JEP Process 提议，由 JEP 2.0 proposal 修订',
+author: '开源中国(qietuwang)',
+date: '2016年06月23日'
+}, {
+n: 'NASA 美国国家航空航天局开源 253 个 NASA 软件项目',
+src: 'pic2.png',
+content: '今美国宇航局即 NASA 将 253 个软件项目开源目前托管在Gitithub上(https://github.com/nasa)，NASA 希望可以通过开源收获更多项目改进的建议，同时NASA也希望用户可以给NASA提交项目，为此专门开通了官方的开源网站 Code NASA。', author: '开源中国(qietuwang)',
+date: '2016年06月23日'
+}, {
+n: '微软说它深爱着 Linux，现在它用行动证明了',
+src: 'http://static.oschina.net/uploads/space/2016/0629/070251_Somh_1774694.png',
+content: '昨日清晨，微软在Red Hat DevNation大会上正式发布了.NET Core以及ASP.NET Core 1.0，并提供了下载，其不仅能在Windows操作系统上运行，还能在Linux和Mac OS X操作系统上运行，这意味着开发者不仅能使用它来建立自己的应用，还能修改和完善平台，来迎合自己和他人的需求。'
+author: '开源中国(qietuwang)',
+date: '2016年06月23日'
+}, {
+n: '程序员编程的 7 + 1 条小贴士',
+src: 'http://static.oschina.net/uploads/img/201606/26074557_cDrN.jpg',
+content: '用10分钟，20分钟甚至30分钟的时间来想想你需要什么，想想什么样的设计模式（如果有的话）适合你将要编码的东西。真的要好好想想，你会很庆幸“浪费”了那几分钟，当你不得不更改或添加东西到代码中，而这只花费了你30分钟的时间而不是5小时'
+author: '开源中国(qietuwang)',
+date: '2016年06月23日'
+}
