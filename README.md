@@ -133,6 +133,7 @@ UPDATE
 *package app for appstore
 *about navigator props issue <Component {...route.params} route={route} state={state} actions={actions} navigator={navigator}/>;
 *have blank page ,so view's style width,height need by set 
+*homepage searchbar
 </pre>
 
 VERSION
