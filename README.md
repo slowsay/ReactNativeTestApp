@@ -134,7 +134,8 @@ UPDATE
 *about navigator props issue <Component {...route.params} route={route} state={state} actions={actions} navigator={navigator}/>;
 *have blank page ,so view's style width,height need by set 
 *homepage searchbar
-*style {width: Util.size.width, height: Util.size.height, backgroundColor: '#fff'}
+*navigator.push page currentpage:style {width: Util.size.width, height: Util.size.height, backgroundColor: '#fff'}
+*add storeshopping page
 </pre>
 
 VERSION
