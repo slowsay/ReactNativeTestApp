@@ -7,7 +7,6 @@
 <p>
 不要关注，工程名，要关注reactnative，即带来方便，又有很多坑要填。</p>
 <pre>
-<a href="https://nodei.co/npm/<package>/"><img src="https://nodei.co/npm/<package>.png"></a>
 import React,{ Component } from 'react';
 import {AppRegistry,
     StyleSheet,
