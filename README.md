@@ -1,4 +1,5 @@
 # ReactNativeTextApp
+<a href="https://nodei.co/npm/<package>/"><img src="https://nodei.co/npm/<package>.png"></a>
 利用reactnative技术，开发，生成app
 <p>
 呵呵，再次拿淘宝手机端练手
