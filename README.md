@@ -165,15 +165,15 @@ Assets destination folder is not set, skipping...
 <Component {...route.params} route={route} state={state} actions={actions} navigator={navigator}/>;
 ```
 
-*have blank page ,so view's style width,height need by set
+* have blank page ,so view's style width,height need by set
 
-*homepage searchbar
+* homepage searchbar
 
-*navigator.push page currentpage:
+* navigator.push page currentpage:
 ```
 style {width: Util.size.width, height: Util.size.height, backgroundColor: '#fff'}
 ```
-*add storeshopping page
+* add storeshopping page
 
 
 ## Version
@@ -182,7 +182,7 @@ v1.0.0 update base
 
 v1.0.1 update selectedIcon功能，用于tabbarios.item
 
-v1.0.2 update 菜单列表排列 Image
+v1.0.10001 update 菜单列表排列 Image
 
 v1.0.3 update scrollView 加载图标,页面切换
 
