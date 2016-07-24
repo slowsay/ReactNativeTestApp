@@ -1,12 +1,12 @@
 # ReactNativeTextApp
 
-利用reactnative技术，开发，生成app
-<p>
-呵呵，再次拿淘宝手机端练手
-</p>
-<p>
-不要关注，工程名，要关注reactnative，即带来方便，又有很多坑要填。</p>
-<pre>
+> 以淘宝手机端作为参考,利用reactnative技术，从建立项目平台,过程开发，最后生成app.
+> 经过几段碎片时间,对rn的研究,发现确实蛮不错的一款前端编译oc的框架,确实降低对于前端去开发app的难易程序.
+> 本demo,还有几个版本,只是对当下的一些记录与分享。
+> 此外还正式上线了一款,简易的ios app应用——"啊呀share",里面添加热更新应用!
+> 在对于细小的改动,以减少审核时间,帮了不忙,同时对oc的语法更近一步的了解与掌握,花点时间基本能掌握基础!
+
+```
 import React,{ Component } from 'react';
 import {AppRegistry,
     StyleSheet,
@@ -76,29 +76,47 @@ class Fuckyou extends Component {
     }
 }
 AppRegistry.registerComponent('Fuckyou', () => Fuckyou);
-</pre>
-模拟测试app
-<p>
-<img src='http://slowsay.github.io/ReactNativeTestApp/test.gif' width='300' />
-</p>
-NPM
------------------------
-<pre>
-step1 
-npm install -g react-native-cli
-step2
-brew install watchman
-step3
-brew install flow
-step4
-npm init hello
-step5
-react-native init 项目名称
-step6
-npm start
-step7
-react-native bundle --entry-file ./index.js --bundle-output ./ios/index.jsbundle
+```
 
+### 模拟测试app
+
+<pre>
+<img src='http://slowsay.github.io/ReactNativeTestApp/test.gif' width='300' />
+</pre>
+
+## Install
+
+step1
+```
+npm install -g react-native-cli
+```
+
+step2
+```
+brew install watchman
+```
+step3
+```
+brew install flow
+```
+step4
+```
+npm init hello
+```
+step5
+```
+react-native init 项目名称
+```
+step6
+```
+npm start
+```
+step7
+```
+react-native bundle --entry-file ./index.js --bundle-output ./ios/index.jsbundle
+```
+
+```
 [1:14:32 PM] <START> Building Dependency Graph
 [1:14:32 PM] <START> Crawling File System
 [1:14:33 PM] <START> find dependencies
@@ -119,33 +137,52 @@ bundle: finish
 bundle: Writing bundle output to: ./ios/index.jsbundle
 bundle: Done writing bundle output
 Assets destination folder is not set, skipping...
+```
+
 说明打包成功了，可以发布到appstore
 
-</pre>
+## Update
 
-UPDATE
------------------------
-<pre>
-*selectedIcon update:react.xcodeproj/react/views/RctTabbaritem.m
-*Menulist update home.js
-*ScrollView refreshControl update home.js
-*about navigator or navigatorIOS 
-*add video or image for launch image
-*package app for appstore
-*about navigator props issue <Component {...route.params} route={route} state={state} actions={actions} navigator={navigator}/>;
-*have blank page ,so view's style width,height need by set 
+* selectedIcon update:react.xcodeproj/react/views/RctTabbaritem.m
+
+* Menulist update home.js
+
+* ScrollView refreshControl update home.js
+
+* about navigator or navigatorIOS
+
+* add video or image for launch image
+
+* package app for appstore
+
+* about navigator props issue
+
+```
+<Component {...route.params} route={route} state={state} actions={actions} navigator={navigator}/>;
+```
+
+*have blank page ,so view's style width,height need by set
+
 *homepage searchbar
-*navigator.push page currentpage:style {width: Util.size.width, height: Util.size.height, backgroundColor: '#fff'}
-*add storeshopping page
-</pre>
 
-VERSION
------------------------
-<pre>
+*navigator.push page currentpage:
+```
+style {width: Util.size.width, height: Util.size.height, backgroundColor: '#fff'}
+```
+*add storeshopping page
+
+
+## Version
+
 v1.0.0 update base
+
 v1.0.1 update selectedIcon功能，用于tabbarios.item
+
 v1.0.2 update 菜单列表排列 Image
+
 v1.0.3 update scrollView 加载图标,页面切换
+
 v1.0.4 update redux
+
 v1.0.5 update launch video
-</pre>
+
