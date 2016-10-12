@@ -24,7 +24,7 @@ import Bbsview from './view/Bbs'
 import Buyview from './view/Buys'
 import Meview from './view/me'
 //开始
-class Fuckyou extends Component {
+class Test extends Component {
     constructor() {
         super();
         this.state = {
@@ -79,7 +79,7 @@ class Fuckyou extends Component {
         );
     }
 }
-AppRegistry.registerComponent('Fuckyou', () => Fuckyou);
+AppRegistry.registerComponent('Test', () => Test);
 ```
 
 ### 模拟测试app
